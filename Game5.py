@@ -12,6 +12,7 @@ while found == False:
     user_row = int(input("Enter row (1-5): "))
     user_col = int(input("Enter column (1-5): "))
 
+    
     if user_row == treasure["row"] and user_col == treasure["col"]:
         print("You found the treasure!")
         found = True
