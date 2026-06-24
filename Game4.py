@@ -12,4 +12,5 @@ for letter in secret_word:
     else:
         display = display + "_ "
 
+
 print(display)
