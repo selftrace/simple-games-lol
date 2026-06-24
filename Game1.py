@@ -13,4 +13,5 @@ for i in range(length):
     random_char = random.choice(all_chars)
     password = password + random_char
 
+
 print("Your password:", password)
