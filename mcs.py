@@ -17,6 +17,7 @@ for i in range(trials):
     if current_trial_flips > max_flips:
         max_flips = current_trial_flips
 
+
 average_flips = total_flips / trials
 
 print("Average number of flips", average_flips)
